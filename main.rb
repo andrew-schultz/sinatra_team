@@ -8,7 +8,7 @@ get '/contact' do
 	erb :contact
 end
 
-get '/services' do 
+get '/layout' do 
 	erb :layout
 end
 
