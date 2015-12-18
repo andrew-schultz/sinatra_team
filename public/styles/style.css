@@ -57,9 +57,61 @@ a {
 }
 
 #home {
-	background-image: url("/images/land_1.jpg");
+	background-image: url("/images/land_2.jpg");
 	background-size: cover;
 }
+
+/*______________ CONTACT ____________________________*/
+
+#watchers {
+	background-image: url("/images/dog_walk2.jpg");
+	background-size: cover;
+}
+
+#watch_title {
+	width: 500px;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 42px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.clip-circle {
+	width: 300px;
+	height: 300px;
+	background-color: #f2f2f2;
+	border-radius: 50%;
+	border: 1px solid #f2f2f2;
+	margin-top: 25px;
+	float: left;
+	margin-right: 40px;
+}
+
+.watch_div {
+	width: 80%;
+	margin: 0 auto;
+	border-top: 2px solid #f2f2f2;
+	height: 400px;
+	min-width: 900px;
+}
+
+#contact {
+	background-image: url("/images/contact1.jpg");
+	background-size: cover;
+}
+
+#contact_title {
+	width: 500px;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 42px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/*______________ CONTACT ____________________________*/
+
 
 .jumbo {
 	width: 100%;
@@ -130,11 +182,7 @@ a {
 #signform {
 	width: 80%;
 	margin: 0 auto;
-	height: 500px;
-}
-
-#signform h2 {
-	text-align: center;
+	height: 300px;
 }
 
 form {
@@ -143,85 +191,7 @@ form {
 }
 
 .servselect {
-	width: 33%;
+	width: 30%;
 	text-align: center;
 	float: left;
-}
-
-#sel {
-	width: 50%;
-	height: 200px;
-	margin: 0 auto;
-	clear: both;
-}
-
-#sel h2 {
-	padding-top: 60px;
-}
-
-#s {
-	width: 50%;
-	margin: 0 auto;
-}
-
-.params {
-	width: 50%;
-	float: left;
-}
-
-#sub {
-	width: 92px;
-	margin: 0 auto;
-/*	margin-top: 100px;
-position: relative;*/
-}
-
-#but {
-	border: 1px solid #d2d2d2;
-	background-color: #d2d2d2;
-	padding: 10px 20px;
-	font-size: 15px;
-}
-
-.sc {
-	border: 1px solid #d2d2d2;
-}
-
-#pt {
-	margin-right: 15px;
-}
-
-#jtext {
-	position: absolute;
-	text-align: center;
-	width: 100%;
-	margin-top: -20px;
-}
-
-#jp {
-	display: none;
-	font-size: 85px;
-	padding-top: -10px;
-	color: #ffffff;
-}
-
-#jsmall {
-	display: none;
-	top: -100px;
-	position: relative;
-	color: #ffffff;
-}
-
-#jpc {
-	display: none;
-	font-size: 85px;
-	padding-top: -10px;
-	color: black;
-}
-
-#jsmallc {
-	color: black;
-	display: none;
-	top: -100px;
-	position: relative;
 }
