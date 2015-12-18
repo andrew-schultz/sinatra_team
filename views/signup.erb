@@ -1,56 +1,70 @@
 <div id="signup" class="jumbo">
+	<div id="jtext">
+		<p id="jpc">
+			Sign Up.
+		</p>
+		<p id="jsmallc">
+			this is standin
+		</p>
+	</div>
 </div>
 <h1 id="servtitle">
 	Sign Up!
 </h1>
 <div id="signform">
 	<form method="POST" action="/signup" id="sup">
-		<label for="firstName">First Name</label>
-		<input type="text" name="firstname">
-		<br>
-		<label for="lastName">Last Name</label>
-		<input type="text" name="lastName">
-		<br>
-		<label for="petName">Pets Name</label>
-		<input type="text" name="petName">
-		<br>
-		<label for="petType">Pet Type</label>
-		<input type="text" name="petName">
-		<br>
-		<label for="services">Services</label>
-
-		<div class="servselect">
-			<h3>Pet Walking</h3>
-			<select name="petwalking">
-				<option value="none" selected="selected"></option>
-				<option value="petwalk20">20 minutes</option>
-				<option value="petwalk30">30 minutes</option>
-				<option value="petwalk60">60 minutes</option>
-			</select>
+		<div id="s">	
+			<div class="params">
+				<h2>About You</h2>
+				<label for="firstName">First Name</label>
+				<input type="text" name="firstname">
+				<br>
+				<br>
+				<label for="lastName">Last Name</label>
+				<input type="text" name="lastName">
+			</div>
+			<div class="params">
+				<h2>About Your Pet</h2>
+				<label for="petName">Pets Name</label>
+				<input type="text" name="petName">
+				<br>
+				<br>
+				<label for="petType" id="pt">Pet Type</label>
+				<input type="text" name="petName">
+			</div>
 		</div>
-
-		<div class="servselect">
-			<h3>Pet Sitting</h3>
-			<select name="petsitting">
-				<option value="none" selected="selected"></option>
-				<option value="petsit30">30 minute visit</option>
-				<option value="petsit24">24 hour overnight</option>
-				<option value="petsitmulti">Multiple day overnight</option>
-			</select>
+		<div id="sel">
+			<h2>Select a Service</h2>
+			<div class="servselect">
+				<h3>Pet Walking</h3>
+				<select name="petwalking" class="sc">
+					<option value="none" selected="selected"></option>
+					<option value="petwalk20">20 minutes</option>
+					<option value="petwalk30">30 minutes</option>
+					<option value="petwalk60">60 minutes</option>
+				</select>
+			</div>
+			<div class="servselect">
+				<h3>Pet Sitting</h3>
+				<select name="petsitting" class="sc">
+					<option value="none" selected="selected"></option>
+					<option value="petsit30">30 minute visit</option>
+					<option value="petsit24">24 hour overnight</option>
+					<option value="petsitmulti">Multiple day overnight</option>
+				</select>
+			</div>
+			<div class="servselect">
+				<h3>Deluxe Services</h3>
+				<select name="deluxeservices" class="sc">
+					<option value="none" selected="selected"></option>
+					<option value="catmassage">Premium Cat Massage</option>
+					<option value="shellwash">Shell Wash and Wax</option>
+					<option value="tailfluff">Shampoo and Tail Fluff</option>
+				</select>
+			</div>
 		</div>
-
-		<div class="servselect">
-			<h3>Deluxe Services</h3>
-			<select name="deluxeservices">
-				<option value="none" selected="selected"></option>
-				<option value="catmassage">Premium Cat Massage</option>
-				<option value="shellwash">Shell Wash and Wax</option>
-				<option value="tailfluff">Shampoo and Tail Fluff</option>
-			</select>
+		<div id="sub">
+			<input type="submit" id="but">
 		</div>
-
-		<br>
-		<input type="submit">
-
 	</form>
 </div>
