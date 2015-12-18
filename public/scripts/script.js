@@ -24,12 +24,3 @@ $(document).ready(function(){
 		$(this).css('color', 'black');
 	});
 });
-
-
-
-
- // $("p").hover(function(){
- //        $(this).css("background-color", "yellow");
- //        }, function(){
- //        $(this).css("background-color", "pink");
- //    });
