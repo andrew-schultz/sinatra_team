@@ -170,9 +170,58 @@ form {
 }
 
 #sub {
-	width: 50px;
+	width: 92px;
 	margin: 0 auto;
 /*	margin-top: 100px;
 position: relative;*/
 }
 
+#but {
+	border: 1px solid #d2d2d2;
+	background-color: #d2d2d2;
+	padding: 10px 20px;
+	font-size: 15px;
+}
+
+.sc {
+	border: 1px solid #d2d2d2;
+}
+
+#pt {
+	margin-right: 15px;
+}
+
+#jtext {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	margin-top: -20px;
+}
+
+#jp {
+	display: none;
+	font-size: 85px;
+	padding-top: -10px;
+	color: #ffffff;
+}
+
+#jsmall {
+	display: none;
+	top: -100px;
+	position: relative;
+	color: #ffffff;
+}
+
+#jpc {
+	display: none;
+	font-size: 85px;
+	padding-top: -10px;
+	color: black;
+}
+
+#jsmallc {
+	color: black;
+	display: none;
+	top: -100px;
+	position: relative;
+}
