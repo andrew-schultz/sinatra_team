@@ -3,16 +3,54 @@
 <h1 id="servtitle">
 	Sign Up!
 </h1>
-<form method="POST" action="/signup" id="sup">
-	<label for="firstName">First Name</label>
-	<input type="text" name="firstname">
-	<br>
-	<label for="lastName">Last Name</label>
-	<input type="text" name="lastName">
-	<br>
-	<label for="petName">Pets Name</label>
-	<input type="text" name="petName">
-	<br>
-	<input type="submit">
+<div id="signform">
+	<form method="POST" action="/signup" id="sup">
+		<label for="firstName">First Name</label>
+		<input type="text" name="firstname">
+		<br>
+		<label for="lastName">Last Name</label>
+		<input type="text" name="lastName">
+		<br>
+		<label for="petName">Pets Name</label>
+		<input type="text" name="petName">
+		<br>
+		<label for="petType">Pet Type</label>
+		<input type="text" name="petName">
+		<br>
+		<label for="services">Services</label>
+
+		<div class="servselect">
+			<h3>Pet Walking</h3>
+			<select name="petwalking">
+				<option value="none" selected="selected"></option>
+				<option value="petwalk20">20 minutes</option>
+				<option value="petwalk30">30 minutes</option>
+				<option value="petwalk60">60 minutes</option>
+			</select>
+		</div>
+
+		<div class="servselect">
+			<h3>Pet Sitting</h3>
+			<select name="petsitting">
+				<option value="none" selected="selected"></option>
+				<option value="petsit30">30 minute visit</option>
+				<option value="petsit24">24 hour overnight</option>
+				<option value="petsitmulti">Multiple day overnight</option>
+			</select>
+		</div>
+
+		<div class="servselect">
+			<h3>Deluxe Services</h3>
+			<select name="deluxeservices">
+				<option value="none" selected="selected"></option>
+				<option value="catmassage">Premium Cat Massage</option>
+				<option value="shellwash">Shell Wash and Wax</option>
+				<option value="tailfluff">Shampoo and Tail Fluff</option>
+			</select>
+		</div>
+
+		<br>
+		<input type="submit">
 
 	</form>
+</div>
