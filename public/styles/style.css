@@ -57,8 +57,55 @@ a {
 }
 
 #home {
-	background-image: url("/images/land_1.jpg");
+	background-image: url("/images/land_2.jpg");
 	background-size: cover;
+}
+
+#watchers {
+	background-image: url("/images/dog_walk2.jpg");
+	background-size: cover;
+}
+
+#watch_title {
+	width: 500px;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 42px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.clip-circle {
+	width: 300px;
+	height: 300px;
+	background-color: #f2f2f2;
+	border-radius: 50%;
+	border: 1px solid #f2f2f2;
+	margin-top: 25px;
+	float: left;
+	margin-right: 40px;
+}
+
+.watch_div {
+	width: 80%;
+	margin: 0 auto;
+	border-top: 2px solid #f2f2f2;
+	height: 400px;
+	min-width: 900px;
+}
+
+#contact {
+	background-image: url("/images/contact1.jpg");
+	background-size: cover;
+}
+
+#contact_title {
+	width: 500px;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 42px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .jumbo {
