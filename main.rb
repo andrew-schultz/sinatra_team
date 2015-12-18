@@ -16,6 +16,10 @@ get '/signup' do
 	erb :signup
 end
 
+post '/signup' do
+	puts "these are the params" + params.inspect
+end
+
 get '/watchers' do
 	erb :watchers
 end

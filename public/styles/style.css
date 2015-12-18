@@ -7,7 +7,6 @@ body {
 header {
 	width: 100%;
 	height: 150px;
-	background-color: blue;
 }
 
 header h1 {
@@ -15,7 +14,7 @@ header h1 {
 	padding: 40px;
 }
 
-nav {
+nav {	
 	float: right;
 	margin-top: 45px;
 	padding-right: 10px;
@@ -28,7 +27,6 @@ ul {
 li {
 	display: inline;
 	padding: 10px;
-
 }
 
 a {
@@ -37,8 +35,68 @@ a {
 	font-size: 20px;
 }
 
-#jumbo {
+.jumbo {
 	width: 100%;
 	height: 500px;
-	background-color: red;
+}
+
+#services {
+	background-image: url('/images/dogwalker.jpg');
+	background-size: cover;
+}
+
+#servtitle {
+	width: 500px;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 42px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.serv {
+	width: 80%;
+	margin: 0 auto;
+	border-top: 2px solid #f2f2f2;
+	/*border-bottom: 2px solid #f2f2f2;*/
+	height: 225px;
+	min-width: 900px;
+}
+
+.servt {
+	width: 915px;
+	float: left;
+}
+
+.serv p {
+	text-align: center;
+}
+
+.circle {
+	width: 175px;
+	height: 175px;
+	background-color: #f2f2f2;
+	border-radius: 50%;
+	border: 1px solid #f2f2f2;
+	margin-top: 25px;
+	float: left;
+	margin-right: 40px;
+}
+
+.circle h1 {
+	text-align: center;
+	margin-top: 56px;
+	line-height: 92%;
+}
+
+.servprice{
+	width: 305px;
+	display: inline-block;
+	text-align: center;
+}
+
+#signup {
+	width: 100%;
+	background-size: cover;
+	background-image: url('/images/pets.jpg');
 }
