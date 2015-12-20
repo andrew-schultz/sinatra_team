@@ -10,10 +10,9 @@ body {
 	width: 190px;
 	height: 190px;
 	background-color: white;
-	border: 1px solid white;
 	border-radius: 50%;
 	margin: 10px 0 0 50px;
-
+	border-bottom: 2px solid #f2f2f2;
 }
 
 #dog_logo img {
@@ -26,6 +25,8 @@ body {
 header {
 	width: 100%;
 	height: 140px;
+	border-bottom: 2px solid #f2f2f2;
+
 }
 
 header h1 {
@@ -56,62 +57,186 @@ a {
 	font-size: 20px;
 }
 
+/*______________ HOME ____________________________*/
+
+
 #home {
 	background-image: url("/images/land_2.jpg");
 	background-size: cover;
 }
 
-/*______________ CONTACT ____________________________*/
+#home_title {
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 42px;
+	padding: 50px 0 50px 0;
+	font-weight: 300;
+	letter-spacing: 2px;
+	color: white;
+	background-color: #559CAD;
+}
+
+
+/*______________ WATCHERS ____________________________*/
 
 #watchers {
-	background-image: url("/images/dog_walk2.jpg");
+	background-image: url("/images/watch2.jpg");
 	background-size: cover;
 }
 
 #watch_title {
-	width: 500px;
+	width: 100%;
 	text-align: center;
 	margin: 0 auto;
 	font-size: 42px;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding: 50px 0 50px 0;
+	font-weight: 300;
+	letter-spacing: 2px;
+	color: white;
+	background-color: #68B0AB;
 }
 
 .clip-circle {
 	width: 300px;
 	height: 300px;
-	background-color: #f2f2f2;
 	border-radius: 50%;
 	border: 1px solid #f2f2f2;
-	margin-top: 25px;
-	float: left;
+	margin-top: 75px;
 	margin-right: 40px;
+	float: left;
 }
 
 .watch_div {
 	width: 80%;
 	margin: 0 auto;
 	border-top: 2px solid #f2f2f2;
-	height: 400px;
+	height: 500px;
 	min-width: 900px;
 }
 
-#contact {
-	background-image: url("/images/contact1.jpg");
-	background-size: cover;
+.watch_bio {
+	width: 60%;
+	display: inline-block;
+	text-align: left;
+	line-height: 25px;
 }
 
-#contact_title {
-	width: 500px;
-	text-align: center;
-	margin: 0 auto;
-	font-size: 42px;
-	padding-top: 50px;
-	padding-bottom: 50px;
+.watch_bio h1{
+	font-size: 30px;
+	font-weight: 300;
+	display: inline-block;
+	text-align: left;
+	line-height: 25px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #f2f2f2;
+	min-width: 840px;
+}
+
+.watch_bio h2{
+	font-size: 25px;
+	display: inline-block;
+	text-align: left;
+	line-height: 25px;
+	font-weight: 300;
+	color: #68B0AB;
+}
+
+.bio_icons {
+	display: inline-block;
+	padding-right: 36px;
+	color: #68B0AB;
+}
+
+.bio_icons_b {
+	display: inline-block;
+	padding-right: 103px;
+	color: #68B0AB;
+	font-weight: 300;
+}
+
+.bio_icons h3, .bio_icons_b h3 {
+	display: inline-block;
+	font-weight: 100;
+	color: #68B0AB;
+	padding-left: 10px;
+	margin-top: 16px;
+}
+
+.icons {
+	float: left;
+}
+
+.icon-top {
+	float: left;
+	width: 750px;
+	height: 50px;
+}
+
+.icon-bot {
+	float: left;
+	width: 790px;
+	height: 50px;
 }
 
 /*______________ CONTACT ____________________________*/
 
+#contact {
+	background-image: url("/images/contact2.jpg");
+	background-size: cover;
+}
+
+#contact_title {
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 42px;
+	padding: 50px 0 50px 0;
+	font-weight: 300;
+	letter-spacing: 2px;
+	color: white;
+	background-color: rgb(25,102,176);
+}
+.cont {
+	width: 80%;
+	margin: 0 auto;
+	border-top: 2px solid #f2f2f2;
+	/*border-bottom: 2px solid #f2f2f2;*/
+	height: 225px;
+	min-width: 900px;
+}
+.cont_div {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	line-height: 25px;
+}
+
+.cont_div h1{
+	font-size: 30px;
+	font-weight: 300;
+	display: inline-block;
+	text-align: center;
+	line-height: 25px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #f2f2f2;
+	min-width: 840px;
+}
+
+.cont_div h2{
+	font-size: 25px;
+	display: inline-block;
+	text-align: center;
+	line-height: 25px;
+	font-weight: 300;
+	color: #68B0AB;
+}
+
+
+
+/*______________ SERVICES ____________________________*/
 
 .jumbo {
 	width: 100%;
@@ -124,12 +249,15 @@ a {
 }
 
 #servtitle {
-	width: 500px;
+	width: 100%;
 	text-align: center;
 	margin: 0 auto;
 	font-size: 42px;
 	padding-top: 50px;
 	padding-bottom: 50px;
+	background-color: rgb(16,134,122);
+	color: white;
+	font-weight: 300;
 }
 
 .serv {
@@ -165,6 +293,7 @@ a {
 	text-align: center;
 	margin-top: 56px;
 	line-height: 92%;
+	color: rgb(16,134,122);
 }
 
 .servprice{
@@ -195,7 +324,6 @@ form {
 	text-align: center;
 	float: left;
 }
-
 
 #sel {
 	width: 50%;
@@ -259,6 +387,8 @@ position: relative;*/
 	top: -100px;
 	position: relative;
 	color: #ffffff;
+	line-height: 45px;
+	font-size: 30px;
 }
 
 #jpc {
