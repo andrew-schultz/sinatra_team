@@ -7,11 +7,11 @@ $(document).ready(function(){
 
 	$('body').on('click', function(){
 		$('#jpc').fadeIn(2000);
-		$('#jsmallc').delay(1000).fadeIn(1000);
+		$('#jsmallc').delay(1000).fadeIn(500);
 		$('#jsmallc').animate({
 			top: '-60px',
 		}, 750);
-	});	
+	});		
 
 	$('.link').hover(function(){
 		$(this).css('color', 'grey');
@@ -21,6 +21,7 @@ $(document).ready(function(){
 
 
 	$("#modal").show();
+
 	$("#modal").on('click', function(){
 		$(this).hide();
 	});

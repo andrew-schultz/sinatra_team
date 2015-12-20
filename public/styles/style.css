@@ -206,6 +206,7 @@ form {
 
 #sel h2 {
 	padding-top: 60px;
+	text-align: center;
 }
 
 #s {
@@ -216,6 +217,56 @@ form {
 .params {
 	width: 50%;
 	float: left;
+}
+
+#one {
+	margin-left: 11px;
+	margin-top: -6px;
+}
+
+#one p {
+	margin: 0;
+	padding-top: 11px;
+	color: #ffffff;
+}
+
+#two {
+	margin-left: -15px;
+	margin-top: -5px;
+}
+
+#two p {
+	margin: 0;
+	padding-top: 11px;
+	color: #ffffff;
+}
+
+#three {
+	margin-top: 33px;
+	margin-left: 120px;
+	
+}
+
+#three p {
+	margin: 0;
+	padding-top: 11px;
+	color: #ffffff;
+}
+
+.easy {
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	border: 1px solid #512f26;
+	background-color: #512f26;
+	font-size: 35px;
+	position: absolute;
+	font-weight: 700;
+	text-align: center;
+}
+
+.params h2 {
+	text-align: center;
 }
 
 #sub {
@@ -308,7 +359,7 @@ textarea {
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.5);
 	z-index: 100;
-	/*display: none;*/
+	display: none;
 	top: 0%;
 }
 
@@ -321,6 +372,13 @@ textarea {
 	margin-left: 36%;
 	top: 50%;
 	transform: translateY(-50%);
+	position: absolute;
+}
+
+#innermodal p {
+	top: 45%;
+	transform: translateY(-55%);
+	left: 29%;
 	position: absolute;
 }
 
