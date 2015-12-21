@@ -471,6 +471,8 @@ form {
 	display: none;
 	top: -100px;
 	position: relative;
+	/*line-height: 45px;*/
+	font-size: 30px;
 }
 
 #contex {
@@ -520,7 +522,8 @@ textarea {
 #innermodal p {
 	top: 45%;
 	transform: translateY(-55%);
-	left: 29%;
+	left: 19%;
 	position: absolute;
+	font-size: 25px;
 }
 
