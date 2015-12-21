@@ -224,21 +224,9 @@ form {
 	margin-top: -6px;
 }
 
-#one p {
-	margin: 0;
-	padding-top: 11px;
-	color: #ffffff;
-}
-
 #two {
 	margin-left: -15px;
 	margin-top: -5px;
-}
-
-#two p {
-	margin: 0;
-	padding-top: 11px;
-	color: #ffffff;
 }
 
 #three {
@@ -247,7 +235,7 @@ form {
 	
 }
 
-#three p {
+.easy p {
 	margin: 0;
 	padding-top: 11px;
 	color: #ffffff;
@@ -257,8 +245,8 @@ form {
 	height: 60px;
 	width: 60px;
 	border-radius: 50%;
-	border: 1px solid #512f26;
-	background-color: #512f26;
+	border: 1px solid #798173;
+	background-color: #798173;
 	font-size: 35px;
 	position: absolute;
 	font-weight: 700;
