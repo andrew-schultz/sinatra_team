@@ -8,6 +8,10 @@ get '/contact' do
 	erb :contact
 end
 
+post '/contact' do
+	puts "these are the params" + params.inspect
+end
+
 get '/layout' do 
 	erb :layout
 end
