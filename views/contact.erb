@@ -6,25 +6,23 @@
 		<p id="jsmall">
 			FEEL AT EASE.
 			<br>
-			Wanna chat? Call or send us an email.
+			Wanna chat? Send us an email.
 		</p>
 	</div>
 </div>
-
 <h1 id="contact_title">
 	contact us today
 </h1>
-
-<div class="cont">
-		<div class="cont_div">
-		<h1>blah blah
-		</h1>
-		<br>
-		<h2>blah blah blah blah</h2>
-
-		<p>blah blahblahblah
-		</p>
-
-
-
+<div id="mail">
+	<div id ="contex">
+		Concerns, compliments, condolences? Whatever it is, we'd love to here from you!
+	</div>
+	<br>
+	<form method='POST' action='/contact' id='fcontact'>
+		<label for="mailname">Name</label>
+		<input type="text" name="mailname">
+		<input type="submit" id="mailbut">
+	</form>
+	<br>
+	<textarea rows="10" cols="75" name="message" form="fcontact">Enter message here...</textarea>
 </div>
