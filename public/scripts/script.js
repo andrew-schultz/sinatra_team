@@ -18,7 +18,7 @@ $(document).ready(function(){
 		}, function(){
 		$(this).css('color', 'black');
 	});
-
+	
 	$("#modal").show();
 
 	$("#modal").on('click', function(){
