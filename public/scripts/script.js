@@ -5,23 +5,23 @@ $(document).ready(function(){
 		top: '-60px',
 	}, 750);
 
-	$('#jpc').fadeIn(2000);
-	$('#jsmallc').delay(1000).fadeIn(1000);
-	$('#jsmallc').animate({
-		top: '-60px',
-	}, 750);
-
-
-	$('.link').on('hover', function(){
-		$(this).css({
-			'color': 'grey'
-		});
-	});
+	$('body').on('click', function(){
+		$('#jpc').fadeIn(2000);
+		$('#jsmallc').delay(1000).fadeIn(500);
+		$('#jsmallc').animate({
+			top: '-60px',
+		}, 750);
+	});		
 
 	$('.link').hover(function(){
 		$(this).css('color', 'grey');
 		}, function(){
 		$(this).css('color', 'black');
 	});
-});
 
+	$("#modal").show();
+
+	$("#modal").on('click', function(){
+		$(this).hide();
+	});
+});
