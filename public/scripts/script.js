@@ -24,4 +24,12 @@ $(document).ready(function(){
 	$("#modal").on('click', function(){
 		$(this).hide();
 	});
+
+	$('.clip-circle').hover(function(){
+		$(this).animate({
+			left: '55px',
+			opacity: '1',
+		});
+	});
+
 });
