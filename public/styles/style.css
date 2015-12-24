@@ -118,6 +118,11 @@ a {
 	min-width: 900px;
 }
 
+#wd_one {
+	width: 80%;
+	height: 500px;
+}
+
 .watch_bio {
 	width: 60%;
 	display: inline-block;
@@ -252,10 +257,13 @@ a {
 }
 
 #innermodal p {
-	top: 45%;
-	transform: translateY(-55%);
-	left: 29%;
+	top: 42%;
+	transform: translateY(-58%);
+	left: 9%;
 	position: absolute;
+	font-size: 33px;
+	font-weight: 300;
+	line-height: 27px;
 }
 
 
@@ -402,8 +410,8 @@ form {
 	height: 60px;
 	width: 60px;
 	border-radius: 50%;
-	border: 1px solid #f2f2f2;
-	background-color: #f2f2f2;
+	border: 1px solid #d9d9d9;
+	background-color: #d9d9d9;
 	font-size: 35px;
 	position: absolute;
 	font-weight: 700;

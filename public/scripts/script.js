@@ -25,11 +25,25 @@ $(document).ready(function(){
 		$(this).hide();
 	});
 
-	$('.clip-circle').hover(function(){
-		$(this).animate({
+	$('#wd_one').hover(function(){
+		$('#cc_one').animate({
 			left: '55px',
 			opacity: '1',
-		});
+		}, 250);
+	});
+
+	$('#wd_two').hover(function(){
+		$('#cc_two').animate({
+			left: '55px',
+			opacity: '1',
+		}, 250);
+	});
+
+	$('#wd_three').hover(function(){
+		$('#cc_three').animate({
+			left: '55px',
+			opacity: '1',
+		}, 250);
 	});
 
 });
